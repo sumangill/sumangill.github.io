@@ -108,7 +108,26 @@
         return false;
     });
 
-
+    $('.owl-carousel').owlCarousel({
+        loop:false,
+        nav:true,
+        dots: false,
+        navText : ["<i class='fa fa-chevron-left teamLeft'></i>","<i class='fa fa-chevron-right teamRight'></i>"],
+        responsive: {
+            0:{
+                items:1
+            },
+            576:{
+                items:1
+            },
+            768:{
+                items:2
+            },
+            992:{
+                items:4
+            }
+        }
+    })
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,

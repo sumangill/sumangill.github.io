@@ -571,3 +571,28 @@ h6,
         transform: translateY(-50%);
     }
 }
+
+.teamWrapper .teamMemberContainer {
+    margin: 0 4px;
+}
+
+.teamWrapper .owl-prev,
+.teamWrapper .owl-next {
+    position: absolute;
+    top: 170px;
+}
+
+.teamWrapper .owl-prev {
+    left: -40px;
+}
+
+.teamWrapper .owl-next {
+    right: -40px;
+}
+
+
+.teamWrapper .owl-prev .teamLeft,
+.teamWrapper .owl-next .teamRight {
+    font-size: 60px;
+    color: #06A3DA;
+}
