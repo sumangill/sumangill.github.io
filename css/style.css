@@ -159,6 +159,12 @@ h6,
     border-color: var(--primary) !important;
 }
 
+.p-3 .btn-outline-light:hover {
+    color: #fff !important;
+    background-color: #ec502b !important;
+    border-color:#ec502b !important;
+}
+
 @media (max-width: 991.98px) {
     .sticky-top.navbar-dark {
         position: relative;
@@ -604,8 +610,3 @@ h6,
     }
 }
 
-btn-outline-light:hover {
-    color: #fff !important;
-    background-color: #ec502b !important;
-    border-color:#ec502b !important;
-}
