@@ -603,3 +603,9 @@ h6,
         transform: translateY(-50%);
     }
 }
+
+btn-outline-light:hover {
+    color: #fff !important;
+    background-color: #ec502b !important;
+    border-color:#ec502b !important;
+}
